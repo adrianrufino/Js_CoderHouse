@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hubballi', cursive;
+    
+}
+
+
+body{
+    background-color: #FFFBD6;
+}
+
+.container1{
+    background-color: #EBBC74;
+}
+
+.firmaSan{
+    margin-left: 35%;
+    width: 350px;
+}
+
+
+footer svg{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+footer svg path{
+    fill  :honeydew;
+}
+
+footer svg path:hover{
+    fill  :black;
+}
+ 
+header a{
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+header img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.parrafo1{
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 15px;
+
+}
+
+.parrafo2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 15px;
+
+}
+
+.parrafo3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 15px;
+}
+
+.enque{
+    background-color: #EBBC74;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.titulo1{
+    margin-top: 100px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 50px;
+}
