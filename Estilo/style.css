@@ -142,3 +142,34 @@ footer{
 a{
     text-decoration: none;
 }
+
+.formulario{
+    margin: 100px 50px 100px 300px;
+    text-align: center;
+}
+
+.formulario button{
+    margin-left: -250px;
+}
+
+.pMateriales{
+
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+    background-color: #A78FA3;
+    border-radius: 5px;
+    margin: 10px 20px 10px 20px;
+}
+
+iframe{
+    width: 500px;
+    height: 400px;
+    margin-left: 375px;
+}
+
+.titulosMateriales{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
