@@ -173,21 +173,22 @@ iframe{
     font-size: 25px;
     margin-top: 50px;
 }
-
+/* 
 .turnero{
 
     text-decoration: none;
     width: 10px; 
-    flex-direction: column;
     background-color: #633659;
     width: 200px; 
-    margin-top: 30px;
+    margin-left: 540px;
+    padding-bottom: 500px;
     border-radius: 2px;
     box-shadow: 0 0 15px 0 white;
     text-align: center;
     font-size: 20px;
     font-weight: 10px;
-}
+    color: white;
+} */
 
 .tituloTurnero{
     margin-top: 100px;
