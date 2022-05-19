@@ -1,5 +1,7 @@
 let turnos = [];
 
+// Lo 1ero que hay que hacer cuando se abre la pagina, es mirar en el localStorage si tengo algo guardado
+leerLocalStorage();
 
 let btnEnviar = document.getElementById("btnEnviar");
 
@@ -27,6 +29,10 @@ btnEnviar.addEventListener("click", (e) => {
     }
 
     turnos.push(turno);
+
+    // Cada vez que guardamos un turno en el array, a ese array se guarda en el local Storage
+    guardarLocalStorage();
+
     let turnosDados = document.getElementById("turnosDados");
     let p = document.createElement("p");
     p.innerText = `${turno.fecha} - ${turno.hora} ${turno.nombre} ${turno.apellido}`;
@@ -34,4 +40,28 @@ btnEnviar.addEventListener("click", (e) => {
     turnosDados.appendChild(p);
 } )
 
+
+function leerLocalStorage(){
+
+    turnos = JSON.parse( localStorage.getItem('turnos') ) || [];
+
+    let turnosDados = document.getElementById("turnosDados");
+
+    if(turnos.length > 0){  // Si el array turnos tiene al menos 1 elemento, lo muestro en la lista de turnos, sino no hago nada
+
+        turnos.forEach( turno => {  // aca recorro el array que me devolvió el local storage y armo en el html la lista
+                                    
+
+            let p = document.createElement("p");    
+            p.innerText = `${turno.fecha} - ${turno.hora} ${turno.nombre} ${turno.apellido}`;
+            turnosDados.appendChild(p);
+        });                               
+    }
+}
+
+function guardarLocalStorage(){    
+
+    localStorage.setItem('turnos', JSON.stringify(turnos));    
+
+}
 
