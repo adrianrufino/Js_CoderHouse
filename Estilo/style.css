@@ -5,7 +5,7 @@
 }
 
 
-body{
+body{    
     background-color: #FFFBD6;
 }
 
@@ -144,7 +144,7 @@ a{
 }
 
 .formulario{
-    margin: 100px 50px 100px 300px;
+    margin: 100px 50px 50px 300px;
     text-align: center;
 }
 
@@ -196,4 +196,18 @@ iframe{
     text-align: center;
     font-size: 50px;
 
+}
+
+#turnosDados p {
+    border: 1px solid gray; 
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px; font-weight: bold;
+    box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
+-webkit-box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
+-moz-box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
+}
+
+#turnosDados span {
+    color: green;
 }
