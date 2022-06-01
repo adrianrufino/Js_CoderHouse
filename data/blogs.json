@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "¿Cómo superar una separación?",
+        "descripcion": "Aplica los consejos de cómo superar una separación y reencuéntrate contigo mismo para reconstruir tu mejor versión.",
+        "imagen": "../Imagenes/blog1.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Los 25 síntomas de la depresión",
+        "descripcion": "¿Depresión o tristeza? Con estos síntomas de depresión que te revelaremos solucionarás el problema",
+        "imagen": "../Imagenes/blog2.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "¿Qué es un trastorno de personalidad y cómo tratarlo?",
+        "descripcion": "El trastorno de personalidad tiene muchas facetas, aquí algunas",
+        "imagen": "../Imagenes/blog3.jpg"
+    }
+]

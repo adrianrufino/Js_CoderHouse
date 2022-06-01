@@ -1,177 +1,183 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Hubballi', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hubballi", cursive;
 }
 
-
-body{    
-    background-color: #FFFBD6;
+body {
+  background-color: #fffbd6;
 }
 
-.container1{
-    background-color: #EBBC74;
+.container1 {
+  background-color: #ebbc74;
 }
 
-.firmaSan{
-    margin-left: 32%;
-    width: 350px;
+.contenedor {
+  width: 85%;
+  margin: 0 auto;
 }
 
-
-footer svg{
-    width: 200px;
-    height: 30px;
-    margin-left: 80px;
+.firmaSan {
+  margin-left: 32%;
+  width: 350px;
 }
 
-footer svg path{
-    fill  :honeydew;
+footer svg {
+  width: 200px;
+  height: 30px;
+  margin-left: 80px;
 }
 
-footer svg path:hover{
-    fill  :black;
+footer svg path {
+  fill: honeydew;
 }
 
-header a{
-    width: 200px;
-    height: 40px;
-    margin-left: 30px;
+footer svg path:hover {
+  fill: black;
 }
 
-header img{
-    margin-top: 50px;
-    margin-bottom: 20px;
+header a {
+  width: 200px;
+  height: 40px;
+  margin-left: 30px;
 }
 
-.parrafo1{
-    margin-top: 150px;
-    margin-left: 30px;
-    font-size: 25px;
-    font-weight: 15px;
-
+header img {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.parrafo2{
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 25px;
-    font-weight: 15px;
-
+.parrafo1 {
+  line-height: 1.25;
+  margin-top: 150px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 15px;
+  text-align: justify;
 }
 
-.parrafo3{
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 25px;
-    font-weight: 15px;
+.parrafo2 {
+  line-height: 1.25;
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 15px;
 }
 
-.enque{
-    background-color: #EBBC74;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    align-items: center;
+.parrafo3 {
+  line-height: 1.25;
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 15px;
 }
 
-.titulo1{
-    margin-top: 100px;
-    margin-bottom: 1px;
-    text-align: center;
-    font-size: 50px;
+.enque {
+  background-color: #ebbc74;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  align-items: center;
 }
 
-.card{
-    margin: 20px 50px 80px 480px;
+.titulo1 {
+  margin-top: 100px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.terapiasTitulo{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.card {
+  margin: 20px 50px 80px 480px;
 }
 
-footer{
-    margin-top: 50px;
+.terapiasTitulo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.divTalleres{
-    background-color:#EBBC74;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+footer {
+  margin-top: 50px;
 }
 
-.Boton1{
-    text-decoration: none;
-    width: 10px; 
-    flex-direction: column;
-    background-color: #633659;
-    width: 200px; 
-    margin-top: 30px;
-    border-radius: 2px;
-    box-shadow: 0 0 15px 0 white;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 10px;
+.divTalleres {
+  background-color: #ebbc74;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.Boton2{
-    text-decoration: none;
-    width: 10px;
-    flex-direction: column; 
-    background-color: #A78FA3;
-    width: 200px;
-    margin-top: 30px;
-    border-radius: 2px;
-    box-shadow: 0 0 15px 0 white;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: 10px;
+.Boton1 {
+  text-decoration: none;
+  width: 10px;
+  flex-direction: column;
+  background-color: #633659;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 2px;
+  box-shadow: 0 0 15px 0 white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 10px;
 }
 
-.MasInformacion{
-    margin-top: 100px;
-    text-align: center;
+.Boton2 {
+  text-decoration: none;
+  width: 10px;
+  flex-direction: column;
+  background-color: #a78fa3;
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 2px;
+  box-shadow: 0 0 15px 0 white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 10px;
 }
 
-a{
-    text-decoration: none;
+.MasInformacion {
+  margin-top: 100px;
+  text-align: center;
 }
 
-.formulario{
-    margin: 100px 50px 50px 300px;
-    text-align: center;
+a {
+  text-decoration: none;
 }
 
-.formulario button{
-    margin-left: -250px;
+.formulario {
+  margin: 100px 50px 50px 300px;
+  text-align: center;
 }
 
-.pMateriales{
-
-    font-size: 20px;
-    font-weight: 10px;
-    text-align: center;
-    background-color: #A78FA3;
-    border-radius: 5px;
-    margin: 10px 20px 10px 20px;
+.formulario button {
+  margin-left: -250px;
 }
 
-iframe{
+.pMateriales {
+  font-size: 20px;
+  font-weight: 10px;
+  text-align: center;
+  background-color: #a78fa3;
+  border-radius: 5px;
+  margin: 10px 20px 10px 20px;
+}
+
+/* iframe{
     width: 500px;
     height: 400px;
     margin-left: 375px;
-}
+} */
 
-.titulosMateriales{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 50px;
+.titulosMateriales {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
 }
 /* 
 .turnero{
@@ -190,24 +196,103 @@ iframe{
     color: white;
 } */
 
-.tituloTurnero{
-    margin-top: 100px;
-    margin-bottom: 1px;
-    text-align: center;
-    font-size: 50px;
-
+.tituloTurnero {
+  margin-top: 100px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-size: 50px;
 }
 
 #turnosDados p {
-    border: 1px solid gray; 
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 20px; font-weight: bold;
-    box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
--webkit-box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
--moz-box-shadow: 10px 7px 20px -10px rgba(0,0,0,0.85);
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 10px 7px 20px -10px rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: 10px 7px 20px -10px rgba(0, 0, 0, 0.85);
+  -moz-box-shadow: 10px 7px 20px -10px rgba(0, 0, 0, 0.85);
 }
 
 #turnosDados span {
-    color: green;
+  color: green;
+}
+
+.materiales_card {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.materiales_card p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.materiales_card iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.blog_grilla {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.blog_card {
+  width: 100%;    
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 250ms ease-in-out;
+  box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.75);
+}
+
+.blog_card:hover {
+    transform: scale(1.05);  
+    box-shadow: 7px 13px 16px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 13px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 13px 16px -2px rgba(0,0,0,0.75);
+}
+
+.blog_card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog_body {     
+  padding: 10px;
+}
+
+.blog_body div {
+  width: 100%;
+  text-align: center;
+  background-color: #633659;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.blog_body div:hover {
+  cursor: pointer;
+  background-color: #633659d2;
+}
+
+.blog_body h3 {
+    font-size: 1.8rem;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.blog_body p {
+    font-size: 1.2rem;
+    line-height: 1.1;
 }
